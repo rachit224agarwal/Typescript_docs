@@ -34,5 +34,8 @@ function describeChai(chai: Chai) {
     }
 }   
 
-const myChai: Chai = { type: "masala", hasMilk: true };
+const myChai: Chai = {
+    type: "masala",
+    hasMilk: true
+ };
 console.log(describeChai(myChai));
