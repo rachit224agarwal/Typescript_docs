@@ -29,3 +29,6 @@ const res: ApiPromise<{name: string; age: number}> = {
     status: 200,
     data: {name: "Rachit", age: 22}
 }
+
+
+
