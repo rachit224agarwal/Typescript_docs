@@ -27,6 +27,7 @@ export function useFetch<T>(url: string): FetchState<T> {
             .catch(error => setState({ data: null, loading: false, error: error.message }));
     }, [url]);
 
+    // testing my beep-beep project here - not anything related to typescript or react, just want to see if I can use this hook in my project without any issues.
 
     return state;
 
